@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "A5D5BA47-C3C6-4E1F-8FE0-5B9837C4909F",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:JourneyJar.xcodeproj",
+        "identifier" : "DC82F46F2C15BD7300C47212",
+        "name" : "JourneyJarTests"
+      }
+    }
+  ],
+  "version" : 1
+}

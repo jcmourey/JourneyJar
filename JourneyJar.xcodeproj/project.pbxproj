@@ -7,37 +7,180 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC82F4792C15BDA800C47212 /* TVShowListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82F46A2C15BC0F00C47212 /* TVShowListTests.swift */; };
+		DC82F48A2C16197F00C47212 /* TVShowForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82F4892C16197F00C47212 /* TVShowForm.swift */; };
+		DC82F48C2C161BAF00C47212 /* KeyValuePair.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82F48B2C161BAF00C47212 /* KeyValuePair.swift */; };
+		DC82F48E2C161BCC00C47212 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82F48D2C161BCC00C47212 /* RatingView.swift */; };
+		DC82F4902C161CE200C47212 /* FormattingConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82F48F2C161CE200C47212 /* FormattingConvenience.swift */; };
+		DC82F4922C16348900C47212 /* TVShowFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82F4912C16348900C47212 /* TVShowFormTests.swift */; };
+		DC82F4942C1634E700C47212 /* TVShowMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82F4932C1634E700C47212 /* TVShowMock.swift */; };
+		DC82F4962C16F04400C47212 /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82F4952C16F04400C47212 /* Thumbnail.swift */; };
+		DC82F4982C17030200C47212 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82F4972C17030200C47212 /* Mock.swift */; };
 		DC9FD8792C14BBA200160788 /* JourneyJarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9FD8782C14BBA200160788 /* JourneyJarApp.swift */; };
-		DC9FD87B2C14BBA200160788 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9FD87A2C14BBA200160788 /* ContentView.swift */; };
 		DC9FD87D2C14BBA400160788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9FD87C2C14BBA400160788 /* Assets.xcassets */; };
 		DC9FD8812C14BBA400160788 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9FD8802C14BBA400160788 /* Preview Assets.xcassets */; };
+		DC9FD8892C14BDEC00160788 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = DC9FD8882C14BDEC00160788 /* ComposableArchitecture */; };
+		DC9FD88B2C14BE2B00160788 /* TVShowList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9FD88A2C14BE2B00160788 /* TVShowList.swift */; };
+		DC9FD88D2C14BF2100160788 /* TVShowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9FD88C2C14BF2100160788 /* TVShowModel.swift */; };
+		DC9FD8922C14C00F00160788 /* Tagged in Frameworks */ = {isa = PBXBuildFile; productRef = DC9FD8912C14C00F00160788 /* Tagged */; };
+		DC9FD89A2C14C0B300160788 /* Interest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9FD8972C14C0B300160788 /* Interest.swift */; };
+		DC9FD89B2C14C0B300160788 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9FD8982C14C0B300160788 /* Rating.swift */; };
+		DC9FD8A62C14EB1400160788 /* NavTitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9FD8A52C14EB1400160788 /* NavTitleStyle.swift */; };
+		DC9FD8A92C14EB6A00160788 /* PlatformIndependence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9FD8A82C14EB6A00160788 /* PlatformIndependence.swift */; };
+		DC9FD8AB2C14EC4600160788 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9FD8AA2C14EC4600160788 /* ImageView.swift */; };
+		DC9FD8AD2C14EC5500160788 /* OptionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9FD8AC2C14EC5500160788 /* OptionalView.swift */; };
+		DC9FD8B12C14EC9700160788 /* ContentUnavailableViewFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9FD8AE2C14EC9700160788 /* ContentUnavailableViewFuture.swift */; };
+		DC9FD8B22C14EC9700160788 /* OnChangeFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9FD8AF2C14EC9700160788 /* OnChangeFuture.swift */; };
+		DC9FD8B42C14ECB700160788 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9FD8B32C14ECB700160788 /* ErrorView.swift */; };
+		DCCD71D12C19B199009AA443 /* TVShowFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD71D02C19B199009AA443 /* TVShowFormView.swift */; };
+		DCCD71D32C19B27B009AA443 /* TVDBInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD71D22C19B27B009AA443 /* TVDBInfoView.swift */; };
+		DCCD71D72C19C0C2009AA443 /* IdentifiedCollectionsConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD71D62C19C0C2009AA443 /* IdentifiedCollectionsConvenience.swift */; };
+		DCCD71DA2C1A04CC009AA443 /* FirebasePersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD71D92C1A04CC009AA443 /* FirebasePersistence.swift */; };
+		DCCD71DC2C1A0CD1009AA443 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCCD71DB2C1A0CD1009AA443 /* GoogleService-Info.plist */; };
+		DCCD71E02C1A0DEF009AA443 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = DCCD71DF2C1A0DEF009AA443 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		DCCD71E22C1A0DF4009AA443 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DCCD71E12C1A0DF4009AA443 /* FirebaseAnalyticsSwift */; };
+		DCCD71E42C1A0DFA009AA443 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = DCCD71E32C1A0DFA009AA443 /* FirebaseAppCheck */; };
+		DCCD71E62C1A0E02009AA443 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DCCD71E52C1A0E02009AA443 /* FirebaseFirestore */; };
+		DCCD71E82C1A0E08009AA443 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DCCD71E72C1A0E08009AA443 /* FirebaseAuth */; };
+		DCCD71EB2C1A10F3009AA443 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD71EA2C1A10F3009AA443 /* FirebaseService.swift */; };
+		DCCD71EF2C1A13D0009AA443 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DCCD71EE2C1A13D0009AA443 /* FirebaseDatabaseSwift */; };
+		DCEF0A372C17522C003084DF /* TVShowDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF0A362C17522C003084DF /* TVShowDetail.swift */; };
+		DCEF0A3B2C17663F003084DF /* TVShowDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF0A3A2C17663F003084DF /* TVShowDetailTests.swift */; };
+		DCEF0A3E2C1767F7003084DF /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF0A3D2C1767F7003084DF /* AppFeature.swift */; };
+		DCEF0A592C18B454003084DF /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF0A3F2C18B453003084DF /* APIRequest.swift */; };
+		DCEF0A5A2C18B454003084DF /* APIResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF0A402C18B453003084DF /* APIResource.swift */; };
+		DCEF0A5C2C18B454003084DF /* ImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF0A422C18B453003084DF /* ImageRequest.swift */; };
+		DCEF0A5D2C18B454003084DF /* APIDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF0A432C18B453003084DF /* APIDecoder.swift */; };
+		DCEF0A5E2C18B454003084DF /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF0A442C18B453003084DF /* NetworkRequest.swift */; };
+		DCEF0A602C18B454003084DF /* TheTVDBAPIResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF0A472C18B453003084DF /* TheTVDBAPIResource.swift */; };
+		DCEF0A632C18B454003084DF /* TheTVDBDetailResultSample.json in Resources */ = {isa = PBXBuildFile; fileRef = DCEF0A4A2C18B453003084DF /* TheTVDBDetailResultSample.json */; };
+		DCEF0A642C18B454003084DF /* TheTVDBExtendedResultSample.json in Resources */ = {isa = PBXBuildFile; fileRef = DCEF0A4B2C18B453003084DF /* TheTVDBExtendedResultSample.json */; };
+		DCEF0A672C18B454003084DF /* TheTVDBSearchResultSample.json in Resources */ = {isa = PBXBuildFile; fileRef = DCEF0A4E2C18B453003084DF /* TheTVDBSearchResultSample.json */; };
+		DCEF0A682C18B454003084DF /* TheTVDBSeriesDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF0A4F2C18B453003084DF /* TheTVDBSeriesDetailModel.swift */; };
+		DCEF0A692C18B454003084DF /* TheTVDBSeriesExtendedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF0A502C18B453003084DF /* TheTVDBSeriesExtendedModel.swift */; };
+		DCEF0A6A2C18B454003084DF /* TheTVDBSeriesSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF0A512C18B453003084DF /* TheTVDBSeriesSearchModel.swift */; };
+		DCEF0A6D2C18B454003084DF /* TripAdvisorAPIResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF0A552C18B453003084DF /* TripAdvisorAPIResource.swift */; };
+		DCEF0A6E2C18B454003084DF /* TripAdvisorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF0A562C18B453003084DF /* TripAdvisorModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DC82F4742C15BD7400C47212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC9FD86D2C14BBA200160788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC9FD8742C14BBA200160788;
+			remoteInfo = JourneyJar;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		DC82F46A2C15BC0F00C47212 /* TVShowListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowListTests.swift; sourceTree = "<group>"; };
+		DC82F4702C15BD7300C47212 /* JourneyJarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JourneyJarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC82F4892C16197F00C47212 /* TVShowForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowForm.swift; sourceTree = "<group>"; };
+		DC82F48B2C161BAF00C47212 /* KeyValuePair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyValuePair.swift; sourceTree = "<group>"; };
+		DC82F48D2C161BCC00C47212 /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		DC82F48F2C161CE200C47212 /* FormattingConvenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattingConvenience.swift; sourceTree = "<group>"; };
+		DC82F4912C16348900C47212 /* TVShowFormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowFormTests.swift; sourceTree = "<group>"; };
+		DC82F4932C1634E700C47212 /* TVShowMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowMock.swift; sourceTree = "<group>"; };
+		DC82F4952C16F04400C47212 /* Thumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
+		DC82F4972C17030200C47212 /* Mock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
 		DC9FD8752C14BBA200160788 /* JourneyJar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JourneyJar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9FD8782C14BBA200160788 /* JourneyJarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyJarApp.swift; sourceTree = "<group>"; };
-		DC9FD87A2C14BBA200160788 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DC9FD87C2C14BBA400160788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC9FD87E2C14BBA400160788 /* JourneyJar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JourneyJar.entitlements; sourceTree = "<group>"; };
 		DC9FD8802C14BBA400160788 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC9FD88A2C14BE2B00160788 /* TVShowList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowList.swift; sourceTree = "<group>"; };
+		DC9FD88C2C14BF2100160788 /* TVShowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowModel.swift; sourceTree = "<group>"; };
+		DC9FD8972C14C0B300160788 /* Interest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interest.swift; sourceTree = "<group>"; };
+		DC9FD8982C14C0B300160788 /* Rating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		DC9FD8A52C14EB1400160788 /* NavTitleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavTitleStyle.swift; sourceTree = "<group>"; };
+		DC9FD8A82C14EB6A00160788 /* PlatformIndependence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatformIndependence.swift; sourceTree = "<group>"; };
+		DC9FD8AA2C14EC4600160788 /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		DC9FD8AC2C14EC5500160788 /* OptionalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalView.swift; sourceTree = "<group>"; };
+		DC9FD8AE2C14EC9700160788 /* ContentUnavailableViewFuture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentUnavailableViewFuture.swift; sourceTree = "<group>"; };
+		DC9FD8AF2C14EC9700160788 /* OnChangeFuture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnChangeFuture.swift; sourceTree = "<group>"; };
+		DC9FD8B32C14ECB700160788 /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		DCCD71D02C19B199009AA443 /* TVShowFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowFormView.swift; sourceTree = "<group>"; };
+		DCCD71D22C19B27B009AA443 /* TVDBInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVDBInfoView.swift; sourceTree = "<group>"; };
+		DCCD71D42C19BD24009AA443 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DCCD71D62C19C0C2009AA443 /* IdentifiedCollectionsConvenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiedCollectionsConvenience.swift; sourceTree = "<group>"; };
+		DCCD71D92C1A04CC009AA443 /* FirebasePersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebasePersistence.swift; sourceTree = "<group>"; };
+		DCCD71DB2C1A0CD1009AA443 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DCCD71E92C1A0EF2009AA443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DCCD71EA2C1A10F3009AA443 /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		DCEF0A352C17319A003084DF /* JourneyJarTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = JourneyJarTestPlan.xctestplan; path = JourneyJarTests/JourneyJarTestPlan.xctestplan; sourceTree = "<group>"; };
+		DCEF0A362C17522C003084DF /* TVShowDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDetail.swift; sourceTree = "<group>"; };
+		DCEF0A3A2C17663F003084DF /* TVShowDetailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDetailTests.swift; sourceTree = "<group>"; };
+		DCEF0A3D2C1767F7003084DF /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
+		DCEF0A3F2C18B453003084DF /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		DCEF0A402C18B453003084DF /* APIResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResource.swift; sourceTree = "<group>"; };
+		DCEF0A422C18B453003084DF /* ImageRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRequest.swift; sourceTree = "<group>"; };
+		DCEF0A432C18B453003084DF /* APIDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIDecoder.swift; sourceTree = "<group>"; };
+		DCEF0A442C18B453003084DF /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		DCEF0A472C18B453003084DF /* TheTVDBAPIResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheTVDBAPIResource.swift; sourceTree = "<group>"; };
+		DCEF0A4A2C18B453003084DF /* TheTVDBDetailResultSample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TheTVDBDetailResultSample.json; sourceTree = "<group>"; };
+		DCEF0A4B2C18B453003084DF /* TheTVDBExtendedResultSample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TheTVDBExtendedResultSample.json; sourceTree = "<group>"; };
+		DCEF0A4E2C18B453003084DF /* TheTVDBSearchResultSample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TheTVDBSearchResultSample.json; sourceTree = "<group>"; };
+		DCEF0A4F2C18B453003084DF /* TheTVDBSeriesDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheTVDBSeriesDetailModel.swift; sourceTree = "<group>"; };
+		DCEF0A502C18B453003084DF /* TheTVDBSeriesExtendedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheTVDBSeriesExtendedModel.swift; sourceTree = "<group>"; };
+		DCEF0A512C18B453003084DF /* TheTVDBSeriesSearchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheTVDBSeriesSearchModel.swift; sourceTree = "<group>"; };
+		DCEF0A552C18B453003084DF /* TripAdvisorAPIResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripAdvisorAPIResource.swift; sourceTree = "<group>"; };
+		DCEF0A562C18B453003084DF /* TripAdvisorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripAdvisorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DC9FD8722C14BBA200160788 /* Frameworks */ = {
+		DC82F46D2C15BD7300C47212 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC9FD8722C14BBA200160788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCD71EF2C1A13D0009AA443 /* FirebaseDatabaseSwift in Frameworks */,
+				DCCD71E22C1A0DF4009AA443 /* FirebaseAnalyticsSwift in Frameworks */,
+				DC9FD8922C14C00F00160788 /* Tagged in Frameworks */,
+				DCCD71E02C1A0DEF009AA443 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				DCCD71E42C1A0DFA009AA443 /* FirebaseAppCheck in Frameworks */,
+				DC9FD8892C14BDEC00160788 /* ComposableArchitecture in Frameworks */,
+				DCCD71E82C1A0E08009AA443 /* FirebaseAuth in Frameworks */,
+				DCCD71E62C1A0E02009AA443 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC82F4652C15B31600C47212 /* UI Style */ = {
+			isa = PBXGroup;
+			children = (
+				DC9FD8A52C14EB1400160788 /* NavTitleStyle.swift */,
+			);
+			path = "UI Style";
+			sourceTree = "<group>";
+		};
+		DC82F4712C15BD7300C47212 /* JourneyJarTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC82F46A2C15BC0F00C47212 /* TVShowListTests.swift */,
+				DC82F4912C16348900C47212 /* TVShowFormTests.swift */,
+				DCEF0A3A2C17663F003084DF /* TVShowDetailTests.swift */,
+			);
+			path = JourneyJarTests;
+			sourceTree = "<group>";
+		};
 		DC9FD86C2C14BBA200160788 = {
 			isa = PBXGroup;
 			children = (
+				DCCD71D42C19BD24009AA443 /* MyPlayground.playground */,
+				DCEF0A352C17319A003084DF /* JourneyJarTestPlan.xctestplan */,
 				DC9FD8772C14BBA200160788 /* JourneyJar */,
+				DC82F4712C15BD7300C47212 /* JourneyJarTests */,
 				DC9FD8762C14BBA200160788 /* Products */,
+				DCCD71DE2C1A0DEF009AA443 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				DC9FD8752C14BBA200160788 /* JourneyJar.app */,
+				DC82F4702C15BD7300C47212 /* JourneyJarTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,10 +197,21 @@
 			isa = PBXGroup;
 			children = (
 				DC9FD8782C14BBA200160788 /* JourneyJarApp.swift */,
-				DC9FD87A2C14BBA200160788 /* ContentView.swift */,
+				DCCD71E92C1A0EF2009AA443 /* Info.plist */,
+				DCCD71DB2C1A0CD1009AA443 /* GoogleService-Info.plist */,
+				DCCD71D82C1A04B6009AA443 /* Persistence */,
 				DC9FD87C2C14BBA400160788 /* Assets.xcassets */,
 				DC9FD87E2C14BBA400160788 /* JourneyJar.entitlements */,
 				DC9FD87F2C14BBA400160788 /* Preview Content */,
+				DCEF0A3C2C1767DD003084DF /* App */,
+				DC82F4652C15B31600C47212 /* UI Style */,
+				DC9FD8A72C14EB5E00160788 /* UI Helpers */,
+				DCC662DA2C1592EE00AB45BC /* Convenience */,
+				DC9FD8B02C14EC9700160788 /* Future */,
+				DC9FD8A22C14EAEE00160788 /* UI Elements */,
+				DC9FD89C2C14C0C200160788 /* TVShow */,
+				DC9FD8992C14C0B300160788 /* Model Elements */,
+				DCEF0A582C18B453003084DF /* API Providers */,
 			);
 			path = JourneyJar;
 			sourceTree = "<group>";
@@ -69,9 +224,167 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DC9FD8992C14C0B300160788 /* Model Elements */ = {
+			isa = PBXGroup;
+			children = (
+				DC9FD8972C14C0B300160788 /* Interest.swift */,
+				DC9FD8982C14C0B300160788 /* Rating.swift */,
+			);
+			path = "Model Elements";
+			sourceTree = "<group>";
+		};
+		DC9FD89C2C14C0C200160788 /* TVShow */ = {
+			isa = PBXGroup;
+			children = (
+				DC9FD88C2C14BF2100160788 /* TVShowModel.swift */,
+				DC82F4932C1634E700C47212 /* TVShowMock.swift */,
+				DC9FD88A2C14BE2B00160788 /* TVShowList.swift */,
+				DC82F4892C16197F00C47212 /* TVShowForm.swift */,
+				DCCD71D02C19B199009AA443 /* TVShowFormView.swift */,
+				DCEF0A362C17522C003084DF /* TVShowDetail.swift */,
+				DCCD71D22C19B27B009AA443 /* TVDBInfoView.swift */,
+			);
+			path = TVShow;
+			sourceTree = "<group>";
+		};
+		DC9FD8A22C14EAEE00160788 /* UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				DC9FD8B32C14ECB700160788 /* ErrorView.swift */,
+				DC9FD8AC2C14EC5500160788 /* OptionalView.swift */,
+				DC9FD8AA2C14EC4600160788 /* ImageView.swift */,
+				DC82F48B2C161BAF00C47212 /* KeyValuePair.swift */,
+				DC82F48D2C161BCC00C47212 /* RatingView.swift */,
+				DC82F4952C16F04400C47212 /* Thumbnail.swift */,
+				DC82F4972C17030200C47212 /* Mock.swift */,
+			);
+			path = "UI Elements";
+			sourceTree = "<group>";
+		};
+		DC9FD8A72C14EB5E00160788 /* UI Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DC9FD8A82C14EB6A00160788 /* PlatformIndependence.swift */,
+			);
+			path = "UI Helpers";
+			sourceTree = "<group>";
+		};
+		DC9FD8B02C14EC9700160788 /* Future */ = {
+			isa = PBXGroup;
+			children = (
+				DC9FD8AE2C14EC9700160788 /* ContentUnavailableViewFuture.swift */,
+				DC9FD8AF2C14EC9700160788 /* OnChangeFuture.swift */,
+			);
+			path = Future;
+			sourceTree = "<group>";
+		};
+		DCC662DA2C1592EE00AB45BC /* Convenience */ = {
+			isa = PBXGroup;
+			children = (
+				DC82F48F2C161CE200C47212 /* FormattingConvenience.swift */,
+				DCCD71D62C19C0C2009AA443 /* IdentifiedCollectionsConvenience.swift */,
+			);
+			path = Convenience;
+			sourceTree = "<group>";
+		};
+		DCCD71D82C1A04B6009AA443 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				DCCD71D92C1A04CC009AA443 /* FirebasePersistence.swift */,
+				DCCD71EA2C1A10F3009AA443 /* FirebaseService.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		DCCD71DE2C1A0DEF009AA443 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCEF0A3C2C1767DD003084DF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DCEF0A3D2C1767F7003084DF /* AppFeature.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DCEF0A462C18B453003084DF /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				DCEF0A3F2C18B453003084DF /* APIRequest.swift */,
+				DCEF0A402C18B453003084DF /* APIResource.swift */,
+				DCEF0A422C18B453003084DF /* ImageRequest.swift */,
+				DCEF0A432C18B453003084DF /* APIDecoder.swift */,
+				DCEF0A442C18B453003084DF /* NetworkRequest.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		DCEF0A542C18B453003084DF /* TheTVDB */ = {
+			isa = PBXGroup;
+			children = (
+				DCEF0A472C18B453003084DF /* TheTVDBAPIResource.swift */,
+				DCEF0A512C18B453003084DF /* TheTVDBSeriesSearchModel.swift */,
+				DCEF0A4F2C18B453003084DF /* TheTVDBSeriesDetailModel.swift */,
+				DCEF0A502C18B453003084DF /* TheTVDBSeriesExtendedModel.swift */,
+				DCEF0A6F2C19A742003084DF /* Sample Data */,
+			);
+			path = TheTVDB;
+			sourceTree = "<group>";
+		};
+		DCEF0A572C18B453003084DF /* TripAdvisor */ = {
+			isa = PBXGroup;
+			children = (
+				DCEF0A552C18B453003084DF /* TripAdvisorAPIResource.swift */,
+				DCEF0A562C18B453003084DF /* TripAdvisorModel.swift */,
+			);
+			path = TripAdvisor;
+			sourceTree = "<group>";
+		};
+		DCEF0A582C18B453003084DF /* API Providers */ = {
+			isa = PBXGroup;
+			children = (
+				DCEF0A462C18B453003084DF /* Client */,
+				DCEF0A542C18B453003084DF /* TheTVDB */,
+				DCEF0A572C18B453003084DF /* TripAdvisor */,
+			);
+			path = "API Providers";
+			sourceTree = "<group>";
+		};
+		DCEF0A6F2C19A742003084DF /* Sample Data */ = {
+			isa = PBXGroup;
+			children = (
+				DCEF0A4A2C18B453003084DF /* TheTVDBDetailResultSample.json */,
+				DCEF0A4B2C18B453003084DF /* TheTVDBExtendedResultSample.json */,
+				DCEF0A4E2C18B453003084DF /* TheTVDBSearchResultSample.json */,
+			);
+			path = "Sample Data";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DC82F46F2C15BD7300C47212 /* JourneyJarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC82F4762C15BD7400C47212 /* Build configuration list for PBXNativeTarget "JourneyJarTests" */;
+			buildPhases = (
+				DC82F46C2C15BD7300C47212 /* Sources */,
+				DC82F46D2C15BD7300C47212 /* Frameworks */,
+				DC82F46E2C15BD7300C47212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC82F4752C15BD7400C47212 /* PBXTargetDependency */,
+			);
+			name = JourneyJarTests;
+			productName = JourneyJarTests;
+			productReference = DC82F4702C15BD7300C47212 /* JourneyJarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		DC9FD8742C14BBA200160788 /* JourneyJar */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC9FD8842C14BBA400160788 /* Build configuration list for PBXNativeTarget "JourneyJar" */;
@@ -85,6 +398,16 @@
 			dependencies = (
 			);
 			name = JourneyJar;
+			packageProductDependencies = (
+				DC9FD8882C14BDEC00160788 /* ComposableArchitecture */,
+				DC9FD8912C14C00F00160788 /* Tagged */,
+				DCCD71DF2C1A0DEF009AA443 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				DCCD71E12C1A0DF4009AA443 /* FirebaseAnalyticsSwift */,
+				DCCD71E32C1A0DFA009AA443 /* FirebaseAppCheck */,
+				DCCD71E52C1A0E02009AA443 /* FirebaseFirestore */,
+				DCCD71E72C1A0E08009AA443 /* FirebaseAuth */,
+				DCCD71EE2C1A13D0009AA443 /* FirebaseDatabaseSwift */,
+			);
 			productName = JourneyJar;
 			productReference = DC9FD8752C14BBA200160788 /* JourneyJar.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +422,10 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					DC82F46F2C15BD7300C47212 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DC9FD8742C14BBA200160788;
+					};
 					DC9FD8742C14BBA200160788 = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -113,40 +440,157 @@
 				Base,
 			);
 			mainGroup = DC9FD86C2C14BBA200160788;
+			packageReferences = (
+				DC9FD8872C14BDEC00160788 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				DC9FD8902C14C00F00160788 /* XCRemoteSwiftPackageReference "swift-tagged" */,
+				DCCD71D52C19BD6C009AA443 /* XCRemoteSwiftPackageReference "swift-collections" */,
+				DCCD71DD2C1A0D9B009AA443 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = DC9FD8762C14BBA200160788 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				DC9FD8742C14BBA200160788 /* JourneyJar */,
+				DC82F46F2C15BD7300C47212 /* JourneyJarTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DC82F46E2C15BD7300C47212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC9FD8732C14BBA200160788 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DC9FD8812C14BBA400160788 /* Preview Assets.xcassets in Resources */,
+				DCEF0A632C18B454003084DF /* TheTVDBDetailResultSample.json in Resources */,
 				DC9FD87D2C14BBA400160788 /* Assets.xcassets in Resources */,
+				DCEF0A642C18B454003084DF /* TheTVDBExtendedResultSample.json in Resources */,
+				DCEF0A672C18B454003084DF /* TheTVDBSearchResultSample.json in Resources */,
+				DCCD71DC2C1A0CD1009AA443 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DC82F46C2C15BD7300C47212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC82F4922C16348900C47212 /* TVShowFormTests.swift in Sources */,
+				DC82F4792C15BDA800C47212 /* TVShowListTests.swift in Sources */,
+				DCEF0A3B2C17663F003084DF /* TVShowDetailTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC9FD8712C14BBA200160788 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9FD87B2C14BBA200160788 /* ContentView.swift in Sources */,
+				DCCD71D12C19B199009AA443 /* TVShowFormView.swift in Sources */,
+				DCCD71D72C19C0C2009AA443 /* IdentifiedCollectionsConvenience.swift in Sources */,
+				DC9FD8AB2C14EC4600160788 /* ImageView.swift in Sources */,
+				DCEF0A6E2C18B454003084DF /* TripAdvisorModel.swift in Sources */,
+				DCEF0A5D2C18B454003084DF /* APIDecoder.swift in Sources */,
+				DC9FD89B2C14C0B300160788 /* Rating.swift in Sources */,
+				DCEF0A6A2C18B454003084DF /* TheTVDBSeriesSearchModel.swift in Sources */,
+				DC82F48E2C161BCC00C47212 /* RatingView.swift in Sources */,
+				DC9FD88D2C14BF2100160788 /* TVShowModel.swift in Sources */,
+				DC82F48C2C161BAF00C47212 /* KeyValuePair.swift in Sources */,
+				DC9FD88B2C14BE2B00160788 /* TVShowList.swift in Sources */,
 				DC9FD8792C14BBA200160788 /* JourneyJarApp.swift in Sources */,
+				DCEF0A692C18B454003084DF /* TheTVDBSeriesExtendedModel.swift in Sources */,
+				DC9FD8B22C14EC9700160788 /* OnChangeFuture.swift in Sources */,
+				DCEF0A602C18B454003084DF /* TheTVDBAPIResource.swift in Sources */,
+				DC9FD89A2C14C0B300160788 /* Interest.swift in Sources */,
+				DCEF0A592C18B454003084DF /* APIRequest.swift in Sources */,
+				DCEF0A682C18B454003084DF /* TheTVDBSeriesDetailModel.swift in Sources */,
+				DC82F48A2C16197F00C47212 /* TVShowForm.swift in Sources */,
+				DCCD71D32C19B27B009AA443 /* TVDBInfoView.swift in Sources */,
+				DC9FD8A92C14EB6A00160788 /* PlatformIndependence.swift in Sources */,
+				DCEF0A5E2C18B454003084DF /* NetworkRequest.swift in Sources */,
+				DC82F4902C161CE200C47212 /* FormattingConvenience.swift in Sources */,
+				DCEF0A3E2C1767F7003084DF /* AppFeature.swift in Sources */,
+				DC9FD8A62C14EB1400160788 /* NavTitleStyle.swift in Sources */,
+				DCEF0A6D2C18B454003084DF /* TripAdvisorAPIResource.swift in Sources */,
+				DC82F4942C1634E700C47212 /* TVShowMock.swift in Sources */,
+				DC9FD8B12C14EC9700160788 /* ContentUnavailableViewFuture.swift in Sources */,
+				DC9FD8AD2C14EC5500160788 /* OptionalView.swift in Sources */,
+				DC82F4962C16F04400C47212 /* Thumbnail.swift in Sources */,
+				DCEF0A5C2C18B454003084DF /* ImageRequest.swift in Sources */,
+				DCCD71EB2C1A10F3009AA443 /* FirebaseService.swift in Sources */,
+				DC9FD8B42C14ECB700160788 /* ErrorView.swift in Sources */,
+				DC82F4982C17030200C47212 /* Mock.swift in Sources */,
+				DCCD71DA2C1A04CC009AA443 /* FirebasePersistence.swift in Sources */,
+				DCEF0A5A2C18B454003084DF /* APIResource.swift in Sources */,
+				DCEF0A372C17522C003084DF /* TVShowDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		DC82F4752C15BD7400C47212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC9FD8742C14BBA200160788 /* JourneyJar */;
+			targetProxy = DC82F4742C15BD7400C47212 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		DC82F4772C15BD7400C47212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87LWT8ZN7G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mourey.JourneyJar.JourneyJarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JourneyJar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JourneyJar";
+			};
+			name = Debug;
+		};
+		DC82F4782C15BD7400C47212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87LWT8ZN7G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mourey.JourneyJar.JourneyJarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JourneyJar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JourneyJar";
+			};
+			name = Release;
+		};
 		DC9FD8822C14BBA400160788 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -205,6 +649,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
 			};
 			name = Debug;
 		};
@@ -258,6 +703,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_STRICT_CONCURRENCY = complete;
 			};
 			name = Release;
 		};
@@ -274,6 +720,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JourneyJar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JourneyJar;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -284,16 +733,18 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mourey.JourneyJar.JourneyJar;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mourey.JourneyJar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,6 +763,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JourneyJar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JourneyJar;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -322,16 +776,18 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mourey.JourneyJar.JourneyJar;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mourey.JourneyJar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -340,6 +796,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DC82F4762C15BD7400C47212 /* Build configuration list for PBXNativeTarget "JourneyJarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC82F4772C15BD7400C47212 /* Debug */,
+				DC82F4782C15BD7400C47212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DC9FD8702C14BBA200160788 /* Build configuration list for PBXProject "JourneyJar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -359,6 +824,84 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC9FD8872C14BDEC00160788 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.11.0;
+			};
+		};
+		DC9FD8902C14C00F00160788 /* XCRemoteSwiftPackageReference "swift-tagged" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-tagged.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.0;
+			};
+		};
+		DCCD71D52C19BD6C009AA443 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+		DCCD71DD2C1A0D9B009AA443 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.27.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC9FD8882C14BDEC00160788 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC9FD8872C14BDEC00160788 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		DC9FD8912C14C00F00160788 /* Tagged */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC9FD8902C14C00F00160788 /* XCRemoteSwiftPackageReference "swift-tagged" */;
+			productName = Tagged;
+		};
+		DCCD71DF2C1A0DEF009AA443 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCCD71DD2C1A0D9B009AA443 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		DCCD71E12C1A0DF4009AA443 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCCD71DD2C1A0D9B009AA443 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		DCCD71E32C1A0DFA009AA443 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCCD71DD2C1A0D9B009AA443 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		DCCD71E52C1A0E02009AA443 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCCD71DD2C1A0D9B009AA443 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		DCCD71E72C1A0E08009AA443 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCCD71DD2C1A0D9B009AA443 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DCCD71EE2C1A13D0009AA443 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCCD71DD2C1A0D9B009AA443 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DC9FD86D2C14BBA200160788 /* Project object */;
 }
