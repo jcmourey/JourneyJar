@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>top-level-items</key>
+	<array>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>12</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>11</string>
+					<key>Timestamp</key>
+					<string>749917248.7898639</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>JourneyJar/journey-jar/Sources/Styleguide/KeyContentPair.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>        self.key = key.capitalized
+</string>
+				<key>leading</key>
+				<string>    
+    public init(_ key: String, axis: Axis = .horizontal, @ViewBuilder content: @escaping () -&gt; Content) {
+</string>
+				<key>trailing</key>
+				<string>        self.axis = axis
+        self.content = content
+    }
+</string>
+			</dict>
+			<key>title</key>
+			<string>don't always capitalized (e.g form questions)</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>11</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>10</string>
+					<key>Timestamp</key>
+					<string>749917264.2181261</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>JourneyJar/journey-jar/Sources/Styleguide/KeyValuePair.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>        self.key = key.capitalized
+</string>
+				<key>leading</key>
+				<string>        
+    public init(_ key: String, _ value: (any StringProtocol)?) {
+</string>
+				<key>trailing</key>
+				<string>        if let value {
+            self.value = String(value)
+        } else {
+</string>
+			</dict>
+			<key>title</key>
+			<string>don't always capitalized (e.g form questions)</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>171</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>170</string>
+					<key>Timestamp</key>
+					<string>741350246.434683</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>JourneyJar/journey-jar/Sources/Authentication/AuthManager.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>    // revert to normal sign-in if not possible
+</string>
+				<key>leading</key>
+				<string>    
+    // attempt to link credentialed user with current user
+</string>
+				<key>trailing</key>
+				<string>    private func authLink(credentials: AuthCredential, with user: User) async throws -&gt; AuthDataResult {
+        // test whether error is one of the common recoverable errors
+        func testRecoverable(_ error: Error) throws -&gt; NSError {
+</string>
+			</dict>
+			<key>title</key>
+			<string>if link didn't work, is there a way to not lose the local data and merge it with the new signed in user?
+</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>40</string>
+					<key>EndingLineNumber</key>
+					<string>80</string>
+					<key>StartingColumnNumber</key>
+					<string>29</string>
+					<key>StartingLineNumber</key>
+					<string>80</string>
+					<key>Timestamp</key>
+					<string>741650695.517258</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>JourneyJar/AppIntents.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>identifiers</string>
+				<key>leading</key>
+				<string>    public init() {}
+    
+    public func entities(for </string>
+				<key>trailing</key>
+				<string>: [TVShowEntity.ID]) async throws -&gt; [TVShowEntity] {
+        []
+    }
+</string>
+			</dict>
+			<key>title</key>
+			<string>use tvShowDatabaseClient dependency</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>61</string>
+					<key>EndingLineNumber</key>
+					<string>22</string>
+					<key>StartingColumnNumber</key>
+					<string>60</string>
+					<key>StartingLineNumber</key>
+					<string>22</string>
+					<key>Timestamp</key>
+					<string>741650770.158412</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>JourneyJar/AppIntents.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string> </string>
+				<key>leading</key>
+				<string>            throw $title.needsValueError("Provide a title")
+        }
+        let store: StoreOf&lt;TVShowList&gt; = Store(initialState:</string>
+				<key>trailing</key>
+				<string>TVShowList.State()) {
+            TVShowList()
+        }
+</string>
+			</dict>
+			<key>title</key>
+			<string>use dependencies for tvShow and theTVDB API instead of the store (no need for lastTVShowAdded hack)</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>128</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>127</string>
+					<key>Timestamp</key>
+					<string>749913470.523083</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>JourneyJar/journey-jar/Sources/AuthenticationClientLive/AuthManager.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>            _ = try await authLink(credentials: credentials, with: user)
+</string>
+				<key>leading</key>
+				<string>        // Otherwise, sign in using given credentials.
+        if let user = Auth.auth().currentUser {
+</string>
+				<key>trailing</key>
+				<string>        } else {
+            _ = try await authSignIn(credentials: credentials)
+        }
+</string>
+			</dict>
+			<key>title</key>
+			<string>do a better job linking data if getting error user already linked to a different account</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>14</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>13</string>
+					<key>Timestamp</key>
+					<string>749920000.214622</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>JourneyJar/journey-jar/Sources/UserDatabaseClient/Client.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>    public var delete: @Sendable (UserModel) async throws -&gt; Void
+</string>
+				<key>leading</key>
+				<string>public struct UserDatabaseClient: Sendable {
+    public var save: @Sendable (UserModel) async throws -&gt; Void
+</string>
+				<key>trailing</key>
+				<string>}
+
+enum UserDatabaseClientError: Error {
+</string>
+			</dict>
+			<key>title</key>
+			<string>delete when switching anonymous uid</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>119</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>118</string>
+					<key>Timestamp</key>
+					<string>749913470.523504</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>JourneyJar/journey-jar/Sources/AuthenticationClientLive/AuthManager.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>    func signInAsGuest() async throws {
+</string>
+				<key>leading</key>
+				<string>    }
+    
+</string>
+				<key>trailing</key>
+				<string>        try await Auth.auth().signInAnonymously()
+    }
+    
+</string>
+			</dict>
+			<key>title</key>
+			<string>Add sign in with email link</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+	</array>
+</dict>
+</plist>

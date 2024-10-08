@@ -12,7 +12,13 @@
     "testTimeoutsEnabled" : true
   },
   "testTargets" : [
-
+    {
+      "target" : {
+        "containerPath" : "container:JourneyJar\/journey-jar",
+        "identifier" : "UserTests",
+        "name" : "UserTests"
+      }
+    }
   ],
   "version" : 1
 }

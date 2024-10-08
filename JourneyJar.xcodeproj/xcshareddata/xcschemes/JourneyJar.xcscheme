@@ -30,7 +30,10 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:JourneyJarTests/JourneyJarTestPlan.xctestplan"
+            reference = "container:JourneyJarTests/JourneyJarTestPlan.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:TestPlan.xctestplan"
             default = "YES">
          </TestPlanReference>
       </TestPlans>
@@ -39,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DC82F46F2C15BD7300C47212"
+               BlueprintIdentifier = "DC1C2D332CAEF15D00805948"
                BuildableName = "JourneyJarTests.xctest"
                BlueprintName = "JourneyJarTests"
                ReferencedContainer = "container:JourneyJar.xcodeproj">
@@ -50,12 +53,33 @@
                </Test>
             </SkippedTests>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "UserTests"
+               BuildableName = "UserTests"
+               BlueprintName = "UserTests"
+               ReferencedContainer = "container:JourneyJar/journey-jar">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "UserTests"
+               BuildableName = "UserTests"
+               BlueprintName = "UserTests"
+               ReferencedContainer = "container:JourneyJar/journey-jar">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      enableASanStackUseAfterReturn = "YES"
       region = "FR"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
@@ -77,6 +101,10 @@
          <CommandLineArgument
             argument = "-FIRDebugEnabled"
             isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-FIRDebugDisabled"
+            isEnabled = "NO">
          </CommandLineArgument>
       </CommandLineArguments>
    </LaunchAction>
