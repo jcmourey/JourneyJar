@@ -1,7 +1,6 @@
 import SwiftUI
 import AppRoot
 import UserDatabaseClientLive
-import ErrorClientLive
 import TeamDatabaseClientLive
 import TVShowDatabaseClientLive
 import AuthenticationClientLive
